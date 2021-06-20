@@ -1,0 +1,153 @@
+/* Headers */
+
+h1
+{
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 84px;
+
+  /* Set Color to Green*/
+  color: #2DD555;
+}
+
+h2
+{
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 42px;
+
+  /* Set Color to Mint Green*/
+  color: #72FA4F;
+}
+
+h3
+{
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+
+  /* Set Color to Light Gray*/
+  color: #CCCCCC;
+}
+
+/* Text */
+
+p
+{
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+  /* Set Color to Gray*/
+  color: #585858;
+}
+
+.error
+{
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 300;
+
+  /* Set color to Red */
+  color: Red;
+}
+
+.loadingIcon
+{
+  /* Change the Size */
+  width: 200px;
+
+  /* Center the element */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+b
+{
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+  /* Set Color to Gray*/
+  color: #585858;
+}
+
+/* Buttons */
+
+.button
+{
+  /* Set Border */
+  border-radius: 2px;
+  border: 2px solid #2DD555;
+
+  /* Change Transition Duration */
+  transition-duration: 0.4s;
+
+  /* Set Background color to White */
+  background-color: white;
+
+  /* Set text color to Gray*/
+  color: #585858;
+}
+
+.button:hover
+{
+  /* When loginButton is hovered over change background to Green */
+  background-color: #2DD555;
+}
+
+.secondaryButton
+{
+  /* Set Border */
+  border-radius: 2px;
+  border: 2px solid #7C7C7C;
+
+  /* Change Transition Duration */
+  transition-duration: 0.4s;
+
+  /* Set Background color to White */
+  background-color: white;
+
+  /* Change Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.secondaryButton:hover
+{
+  /* When secondaryButton is hovered over change background to Light Gray */
+  background-color: #7C7C7C;
+
+  /* Change the text color to white so its readable */
+  color: #FFFFFF;
+}
+
+/* Table CSS */
+table
+{
+  font-family: Roboto, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th
+{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-weight: 300;
+}
+
+tr:nth-child(even)
+{
+  background-color: #dddddd;
+}
+
+.tableHeader
+{
+  font-weight: bold;
+}
