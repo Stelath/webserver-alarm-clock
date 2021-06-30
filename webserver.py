@@ -97,7 +97,7 @@ SERVER_HOST = '0.0.0.0'
 SERVER_PORT = 8000
 
 # Define a password to wakeup
-PASSWORD = 'rise'
+PASSWORD = ''
 
 # Create socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
