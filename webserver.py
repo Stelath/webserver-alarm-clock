@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import socket
 import threading
 import platform
@@ -88,15 +89,15 @@ def handle_request(request):
 
 
 # Define GPIO input
-# push_button: DigitalInputDevice = gpiozero.DigitalInputDevice(27)
-# push_button.when_activated = stop_sound
+push_button: DigitalInputDevice = gpiozero.DigitalInputDevice(27)
+push_button.when_activated = stop_sound
 
 # Define socket host and port
 SERVER_HOST = '0.0.0.0'
-SERVER_PORT = 80
+SERVER_PORT = 8000
 
 # Define a password to wakeup
-PASSWORD = ''
+PASSWORD = 'rise'
 
 # Create socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
